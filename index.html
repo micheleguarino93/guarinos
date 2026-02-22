@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guarino Storie e Suoni — guarinoss.it</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+:root {
+  --primary: #0f172a;
+  --accent: #2f4f6f;
+  --light: #f3f4f6;
+  --border: #e5e7eb;
+  --text-muted: #6b7280;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background:#fff;
+  color:#111827;
+  line-height:1.7;
+}
+
+header {
+  position: sticky;
+  top:0;
+  background:#fff;
+  border-bottom:1px solid var(--border);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 8%;
+}
+
+.logo {
+  font-size:14px;
+  font-weight:600;
+  letter-spacing:1px;
+}
+
+nav a {
+  margin-left:30px;
+  font-size:13px;
+  text-decoration:none;
+  color:#374151;
+}
+
+.hero {
+  padding:150px 8%;
+  background:var(--primary);
+  color:#fff;
+}
+
+.hero h1 {
+  font-size:48px;
+  max-width:800px;
+  font-weight:500;
+}
+
+.hero p {
+  margin-top:30px;
+  max-width:600px;
+  color:#cbd5e1;
+}
+
+section { padding:120px 8%; }
+
+h2 {
+  font-size:28px;
+  margin-bottom:50px;
+  font-weight:500;
+}
+
+.divisions {
+  background:var(--light);
+}
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+  gap:60px;
+}
+
+.card {
+  background:#fff;
+  border:1px solid var(--border);
+  padding:50px;
+}
+
+.card h3 {
+  font-size:16px;
+  font-weight:600;
+  margin-bottom:25px;
+}
+
+.card ul {
+  list-style:none;
+}
+
+.card li {
+  margin-bottom:14px;
+  font-size:15px;
+  color:var(--text-muted);
+}
+
+footer {
+  padding:60px 8%;
+  border-top:1px solid var(--border);
+  font-size:13px;
+  color:var(--text-muted);
+}
+
+@media(max-width:768px){
+  .hero h1 { font-size:34px; }
+  section { padding:80px 8%; }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">GUARINO STORIE E SUONI</div>
+  <nav>
+    <a href="#">Studio</a>
+    <a href="#">Divisioni</a>
+    <a href="#">Metodo</a>
+    <a href="#">Contatti</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Architettura narrativa e ingegneria sonora per produzioni cinema e seriali.</h1>
+  <p>
+    Sviluppo IP e post-produzione audio con workflow strutturato,
+    standard broadcast e orientamento alla competitività industriale del progetto.
+  </p>
+</section>
+
+<section>
+  <h2>Lo Studio</h2>
+  <p>
+    Guarino Storie e Suoni opera attraverso due divisioni specializzate
+    che intervengono su fasi strategiche del progetto audiovisivo:
+    sviluppo editoriale e finalizzazione sonora.
+  </p>
+</section>
+
+<section class="divisions">
+  <h2>Divisioni Operative</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>Guarino Storie — Development IP</h3>
+      <ul>
+        <li>Concept development & series premise</li>
+        <li>Series bible strutturata (format, arco stagionale, character grid)</li>
+        <li>Costruzione worldbuilding e long arc</li>
+        <li>Strutturazione episodio pilota (beat sheet, step outline)</li>
+        <li>Writers’ room support e coordinamento sviluppo</li>
+        <li>Packaging creativo (logline, one-pager, pitch deck)</li>
+        <li>Analisi posizionamento broadcaster / piattaforme</li>
+        <li>Script doctoring e revisione strutturale</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Guarino Suoni — Audio Post Production</h3>
+      <ul>
+        <li>Dialogue editing & cleaning (RX workflow)</li>
+        <li>ADR supervision e conform session</li>
+        <li>Sound design cinematografico multitraccia</li>
+        <li>Foley editing e integrazione effetti</li>
+        <li>Premix stem (DX / FX / MX)</li>
+        <li>Mix finale stereo, 5.1, 7.1</li>
+        <li>Loudness compliance EBU R128</li>
+        <li>Consegne broadcast, cinema DCP, piattaforme OTT</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Metodo</h2>
+  <p>
+    Interventi verticali, timeline definite, controllo qualità rigoroso.
+    Ogni progetto viene affrontato con approccio tecnico e documentazione strutturata,
+    in dialogo costante con produzione e reparto editoriale.
+  </p>
+</section>
+
+<section>
+  <h2>Contatti</h2>
+  <p>
+    info@guarinoss.it<br>
+    Milano — Italia<br>
+    Operatività nazionale e internazionale
+  </p>
+</section>
+
+<footer>
+  © 2026 guarinoss.it — Guarino Storie e Suoni
+</footer>
+
+</body>
+</html>
